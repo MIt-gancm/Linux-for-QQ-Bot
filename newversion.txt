@@ -1,0 +1,7 @@
+v:"A-1-1"
+
+ggbt:"你好标题"
+
+ggnr:"你好内容这是一个测试"
+
+update:"https://$installfor/MIt-gancm/Linux-for-QQ-Bot/raw/main/install.sh"
