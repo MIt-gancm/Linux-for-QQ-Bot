@@ -3,6 +3,14 @@
 
 欢迎来到 Yunzai-Bot 和小派蒙 自动安装脚本的 Github 仓库！本脚本能够帮助您快速地在乌班图18~22、Termux（Zerotermux）的Proot乌班图18上自动安装 Yunzai-Bot 和小派蒙，让您更轻松地使用这两个机器人。 并提供这两个机器人的部分插件安装。
 
+```
+git clone https://github.com/MIt-gancm/Linux-for-QQ-Bot.git
+#拉取
+git clone https://gitee.com/MIt-gancm/Linux-for-QQ-Bot.git
+#国区加速
+cd Linux-for-QQ-Bot && bash install.sh
+#脚本! 启动!（雾）
+```
 ## Yunzai-Bot
 
 Yunzai-Bot 是一款基于 Node.js 开发的机器人，适用于乌班图18~22和 Termux（Zerotermux）的 Proot 乌班图18。它是原神 QQ 群机器人，通过米游社接口，查询原神游戏信息并快速生成图片返回。您可以访问以下链接了解 Yunzai-Bot 的相关内容：
