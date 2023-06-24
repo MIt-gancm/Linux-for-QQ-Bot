@@ -440,8 +440,7 @@ if [[ "$cloud_version" != "$uncloud_version" ]]; then
                       read -p "是否更新? [y/n] " choice
                       if [[ "$choice" == "y" ]]; then
                           # 下载并替换脚本文件
-                          # 下载并替换脚本文件
-                          if wget https://$installfor/Mit-gancm/Linux-for-QQ-Bot/raw/main/install.sh -O /usr/bin/${QDML}  
+                          if wget https://$installfor/Mit-gancm/Linux-for-QQ-Bot/raw/main/${local_type}install.sh -O /usr/bin/${QDML}  
                           then
                           jdt 正在更新脚本
                           sed -i "s/v:".*"/v:\"$cloud_version\"/" /gancm/version.txt
@@ -471,7 +470,7 @@ if [[ "$cloud_version" != "$uncloud_version" ]]; then
                       read -p "是否更新? [y/n] " choice
                       if [[ "$choice" == "y" ]]; then
                           # 下载并替换脚本文件
-                          if wget https://$installfor/Mit-gancm/Linux-for-QQ-Bot/raw/main/install.sh -O /usr/bin/${QDML}  
+                          if wget https://$installfor/Mit-gancm/Linux-for-QQ-Bot/raw/main/${local_type}install.sh -O /usr/bin/${QDML}  
                           then
                           jdt 正在更新脚本
                           sed -i "s/v:".*"/v:\"$cloud_version\"/" /gancm/version.txt
